@@ -6,7 +6,7 @@ import app
 class TestSchedule(unittest.TestCase):
     def test_schedule1(self):
         maxDiff = None
-        schedule_start = datetime.datetime(2024, 12, 25, 9, 0)  # Align to 9:00 for clarity
+        schedule_start = datetime.datetime(2024, 12, 25, 9, 0)
         schedule_end = datetime.datetime(2024, 12, 25, 14, 0)
         trainer_bookings = []
         search_window = 60
